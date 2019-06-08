@@ -8,6 +8,7 @@
         "titleBar.activeBackground": "#02ccff",
         "titleBar.activeForeground": "#FAFBED",
 
+		// Sidebar
         "statusBar.background": "#33ff00",
 
         // Sidebar
