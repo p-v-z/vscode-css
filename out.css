@@ -28,7 +28,7 @@
   border-radius: 20px 0 0 20px;
 }
 .monaco-workbench .titlebar {
-  background-color: #ffffff;
+  color: white !important;
   border-bottom: 0 !important;
   animation: lighten 6s ease-in-out infinite alternate;
 }
@@ -40,16 +40,18 @@
 }
 .monaco-workbench .activitybar {
   animation: lighten 6s ease-in-out infinite alternate;
+  color: white !important;
 }
 .monaco-workbench .activitybar .action-item,
-.monaco-workbench .activitybar .action-label {
+.monaco-workbench .activitybar a.action-label {
+  color: white !important;
   transition: all 0.1s ease-in-out;
 }
 .monaco-workbench .activitybar .action-item:hover > .action-label {
   transform: rotateZ(8deg) scale(1.2);
 }
 .monaco-workbench .statusbar {
-  color: white;
+  color: white !important;
   border-top: 0 !important;
   animation: lighten 6s ease-in-out infinite alternate;
 }

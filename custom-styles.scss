@@ -52,12 +52,12 @@ $anim-time: 6s;
 
 	/* Title Bar */
 	.titlebar {
-		background-color: #ffffff;
+		color: white !important;
 		border-bottom: 0 !important;
 		animation: lighten $anim-time ease-in-out infinite alternate;
 
 		// If active
-		&:not(.inactive) {
+		// &:not(.inactive) {
 			// &::before {
 				// @extend %bgElement;
 				// background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, white 50%, rgba(0, 0, 0, 0) 100%);
@@ -69,7 +69,7 @@ $anim-time: 6s;
 			// 	background: linear-gradient(rgba(0, 0, 0, 0) 25%, black 100%);
 			// 	animation: darken $anim-time ease-in-out infinite alternate;
 			// }
-		}
+		// }
 
 		// Disable activitybar when inactive
 		&.inactive{
@@ -87,9 +87,11 @@ $anim-time: 6s;
 	.activitybar {
 		animation: lighten $anim-time ease-in-out infinite alternate;
 
+		color: white !important;
 
 		.action-item,
-		.action-label {
+		a.action-label {
+			color: white !important;
 			transition: all 0.1s ease-in-out;
 		}
 
@@ -101,7 +103,7 @@ $anim-time: 6s;
 	.sidebar.left {}
 
 	.statusbar {
-		color: white;
+		color: white !important;
 		border-top: 0 !important;
 		animation: lighten $anim-time ease-in-out infinite alternate;
 	}
