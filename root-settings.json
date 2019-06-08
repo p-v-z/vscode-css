@@ -1,0 +1,49 @@
+{
+    "window.zoomLevel": 0,
+	
+    // Editor
+    "editor.fontLigatures": true,
+    "editor.fontSize": 11,
+    "editor.fontFamily": "Hack",
+	
+    "editor.codeLens": false,
+    "editor.renderWhitespace": "none",
+	"editor.renderControlCharacters": false,
+	
+	"editor.insertSpaces": false,
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+	
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+	"editor.suggestSelection": "first",
+
+	// Custom CSS
+	"vscode_custom_css.imports": ["file:///C:/Projects/aws-training/vscode-css/out.css"],
+	"vscode_custom_css.policy": true,
+	
+	// "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "terminal.integrated.shell.windows": "C:/Program Files/Git/bin/bash.exe",
+	"terminal.integrated.rendererType": "dom",
+	// "terminal.integrated.fontFamily": 
+	"terminal.integrated.fontSize": 8,
+	
+	// File Types
+    "typescript.updateImportsOnFileMove.enabled": "always",
+	"[typescript]": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"	
+    },
+
+    "[html]": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	
+	// Other
+    "git.autofetch": true,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "breadcrumbs.enabled": true
+}

@@ -1,0 +1,26 @@
+{
+    "workbench.colorCustomizations": {
+		// Editor:
+        "editorWarning.foreground": "#ff0",
+        "editorInfo.foreground": "#33ff00",
+
+        // Titlebar
+        "titleBar.activeBackground": "#02ccff",
+        "titleBar.activeForeground": "#FAFBED",
+
+        "statusBar.background": "#33ff00",
+
+        // Sidebar
+        "activityBar.background": "#ff7b00",
+
+	},
+	// Sidebar Position
+	"workbench.sideBar.location": "left",
+
+	// Workbench Theme
+    "workbench.iconTheme": "material-icon-theme",
+	"workbench.colorTheme": "Material Theme Darker High Contrast",
+	
+	// Terminal Position
+	"workbench.panel.defaultLocation": "right"
+}
